@@ -1,61 +1,52 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+Italiano
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+In questa sezione del mio progetto Laravel, ho sviluppato una navbar dinamica utilizzando Bootstrap e Blade, integrando il sistema di autenticazione fornito da Laravel Fortify. Il sito è dedicato all’universo Pokémon, e questa barra di navigazione consente una gestione semplice e chiara delle azioni di login, registrazione e logout.
 
-## About Laravel
+Nello specifico:
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+Ho strutturato una navbar responsive e centrata, compatibile con dispositivi mobili.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+Se l’utente non è autenticato (@guest), vengono mostrati i link per registrarsi e accedere tramite le route predefinite di Laravel Fortify.
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+Se invece l’utente è autenticato (@auth), appare un messaggio di benvenuto, accompagnato da due form:
 
-## Learning Laravel
+uno per effettuare il logout in modo sicuro (con protezione CSRF),
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+e uno per accedere a una sezione chiamata “Storia Pokémon”, che rappresenta una funzionalità personalizzata del sito.
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+Questo codice dimostra la mia capacità di:
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+gestire autenticazione e autorizzazione utente con Laravel Fortify,
 
-## Laravel Sponsors
+strutturare interfacce utente pulite e responsive con Blade e Bootstrap,
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+implementare logiche condizionali per personalizzare l’esperienza in base allo stato dell’utente.
 
-### Premium Partners
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Redberry](https://redberry.international/laravel-development/)**
-- **[Active Logic](https://activelogic.com)**
 
-## Contributing
+English 
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+In this section of my Laravel project, I developed a dynamic navbar using Bootstrap and Blade, fully integrated with Laravel Fortify for user authentication. The site is themed around the Pokémon universe, and this navigation bar handles login, registration, and logout functionality in a clean and user-friendly way.
 
-## Code of Conduct
+Specifically:
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+I built a responsive and centered navbar that works seamlessly on mobile devices.
 
-## Security Vulnerabilities
+When the user is not authenticated (@guest), the navigation shows links to register and log in, using Laravel Fortify's default routes.
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+When the user is authenticated (@auth), a welcome message is displayed along with two forms:
 
-## License
+one for secure logout (with CSRF protection),
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+and another for accessing a custom feature called “Pokémon History.”
+
+This code demonstrates my ability to:
+
+manage user authentication and authorization using Laravel Fortify,
+
+design responsive UI components with Blade and Bootstrap,
+
+implement conditional rendering to tailor the experience based on the user’s login status.
+
+
